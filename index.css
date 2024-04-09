@@ -1,0 +1,177 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body, html {
+  width: 1512px;
+  height: 982px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C8E6C9;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  width: 1122px;
+  height: 667px;
+  background-color: #ffffff;
+  /* border: 1px solid #ffffff; */
+  /* opacity: 0.8; */
+  border-radius: 32px;
+ 
+}
+.card-green{
+  position:absolute;
+font-family: Poppins-Regular;
+font-size: 16px;
+  width: 341px;
+  height: 667px;
+
+  border-radius: 32px 0px 0px 32px;
+  background-color: #2E7D32;
+  color: white;
+}
+.card-white{
+  position: relative;
+  width: auto;
+  height: 667px;
+  
+}
+.contacto{
+  position: relative;
+  top: 330px;
+  left: 40px;
+  line-height: 1.5;
+}
+.phone{
+  position: relative;
+  top: 32px;
+}
+.redes{
+  position: relative;
+  top: 82px;
+  font-family: Poppins-SemiBold;
+  font-size: 16px;
+}
+.redes svg{
+  padding-right: 15px;
+  padding-top: 10px;
+}
+img{
+  position: absolute;
+  left: 468px;
+  top: 185px;
+  z-index: 1;
+}
+.datos{
+  position: absolute;
+  left: 645px;
+  top: 87px;
+  width: 350px;
+}
+.title-green{
+  color: #2E7D32;
+  font-family: Poppins-SemiBold;
+  font-size: 46px;
+}
+.title-black{
+  color: #000;
+  opacity: 0.87;
+  font-family: Poppins-SemiBold;
+  font-size: 46px;
+}
+h4{
+  font-family: Poppins-SemiBold;
+  font-size: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.datos p{
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  
+}
+.fig1{
+  position: absolute;
+  left: 511px;
+  top: 710px;
+  width: 50px;
+  height: 48px;
+  background-color: #E0E0E0;
+  z-index: 2;
+}
+.fig2{
+  position: absolute;
+  left: 443px;
+  top: 241px;
+  width: 50px;
+  height: 48px;
+  background-color: #E0E0E0;
+  z-index: 2;
+}
+.fig3{
+  position: absolute;
+  left: 790px;
+  top: 199px;
+  width: 50px;
+  height: 21px;
+  background-color: #E0E0E0;
+  z-index: 2;
+}
+.fig4{
+  position: absolute;
+  left: 777px;
+  top: 703.5px;
+  width: 61px;
+  height: 61px;
+  background-color: #2E7D32;
+  z-index: 1;
+  border-radius: 30.5px;
+}
+.fig5{
+  position: absolute;
+  left: 1225px;
+  top: 147px;
+  width: 92px;
+  height: 92px;
+  background-color: #2E7D32;
+  z-index: 1;
+  border-radius: 0 30.5px 0 92px;
+}
+.fig6{
+  position: absolute;
+  left: 195px;
+  top: 627px;
+  width: 273px;
+  height: 21px;
+  background-color: #E0E0E0;
+  z-index: 1;
+}
+/* This is an example CSS file, feel free to remove/edit it anytime */
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+}
+.footer a {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer span {
+  font-size: 14px;
+}
